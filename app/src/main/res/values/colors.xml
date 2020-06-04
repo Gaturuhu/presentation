@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#9E9E9E</color>
+        <color name="colorPrimaryDark">#616161</color>
+        <color name="colorbutton">#F5F5F5</color>
+
+        <!--    onboard colors-->
+        <color name="onboardPrimary">#3F51B5</color>
+        <color name="onboardPrimaryDark">#303F9F</color>
+        <color name="onboardAccent">#FF5252</color>
+        <color name="onboardTextPrimary">#212121</color>
+        <color name="onboardTextSecondary">#757575</color>
+        <color name="colorwhite">#fff</color>
+
+</resources>
+
+

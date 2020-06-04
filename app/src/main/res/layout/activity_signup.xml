@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CREATE AN ACCOUNT"
+            android:textStyle="bold"
+            android:textColor="@color/onboardAccent"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/tv_username"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="EMAIL"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/buttonback"/>
+        <EditText
+            android:id="@+id/tv_admission"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="ADMISSION NUMBER"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/buttonback"/>
+        <EditText
+            android:id="@+id/tv_password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="PASSWORD"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/buttonback"/>
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="SIGN UP"/>
+        <Button
+            android:id="@+id/btn_log_in"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="LOGIN"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

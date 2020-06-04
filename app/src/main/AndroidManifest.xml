@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="School"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StudentProfile"></activity>
+        <activity
+            android:name=".tabs"
+            android:label="@string/title_activity_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Onboard" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".signup" />
+        <activity android:name=".View" />
+        <activity android:name=".Students" />
+        <activity android:name=".Admin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
