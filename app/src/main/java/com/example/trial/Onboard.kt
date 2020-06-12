@@ -24,11 +24,6 @@ class Onboard : AppCompatActivity() {
                 "TRACK PROGRESS",
                 "Track student records easily, and get all the student information online",
                 R.drawable.onboard2
-            ),
-            IntroSlide(
-                "PAY FEE CHAP CHAP WAY",
-                "Allows you to pay school via Mpesa Push menu hence saving you time and keeping your student in class",
-                R.drawable.onboard1
             )
         )
 
